@@ -85,6 +85,7 @@ p {
 }
 
 span {
+  font-size: 16px;
   font-weight: bold;
 }
 
@@ -97,4 +98,48 @@ span {
   cursor: pointer;
 }
 
+@media (min-width: 360px) and (max-width: 768px) {
 
+  .author-container {
+    margin-top: 10%;
+  }
+  
+  .attribution {
+    font-size: 0.9rem;
+  }
+  
+  .container {
+    height: 70%;
+    padding: 0 5%; 
+    width: 80%;
+  }
+  
+  .content, .date-of-publish, .p, .title, span {
+    font-size: 1rem;
+  }
+
+  .illustration-article {
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media (min-width: 390px) and (min-height: 800px) {
+
+  .p, .content, .date-of-publish, .title, span {
+    font-size: 1.2rem;
+  }
+
+  .container {
+    height: 60%;
+  }
+
+}
+
+@media (min-width: 1440px) {
+
+  .p, .content, .date-of-publish, .title, span {
+    font-size: 1rem;
+  }
+
+  }
